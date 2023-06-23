@@ -35,7 +35,8 @@ A 5000 character example of text generation using 紅樓夢 is in "generated.txt
 As you can see, the certainly looks like 紅樓夢 in style and some sentences almost make sense. 
 All the codes are in the ChineseGPT notebook. Run it to build and train your own model.
 "hongloumeng.txt" and "lunyu.txt" are the text files used for training.
-"model_hlm.pt" contains the best trained model, the validation loss being 3.9. 
+"model_hlm.pt" contains the best trained model, with validation loss = 3.9. 
+You can download that pre-trained model in the release.
 To load the model and generate your own text, simply use the torch.load function (as shown in the notebook)
 
 Feel free to use my code and I'm open to suggestions. 
